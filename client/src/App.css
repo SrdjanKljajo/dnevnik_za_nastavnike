@@ -1,0 +1,123 @@
+body {
+  background-color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+  }
+
+.height {
+    height: 94vh;
+  }
+
+.pocetna {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0, 0, 0, 0.6)), url(/os-priboj.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover; 
+    color: white;
+  }
+
+.aHome {
+    color: rgb(111, 155, 155);
+  }
+  
+.aHome:hover {
+  text-decoration: none;
+  color: teal;
+  }
+
+.msg {
+    display: none;
+    text-align: center;
+    }
+    
+.msgAppear {
+    display: block;
+    }
+
+.spinner {
+    width: 13rem;
+    display: block;
+    margin: 230px auto;
+  }
+
+
+.logo {
+    width: 25px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+.prijava {
+    margin-top: 220px;
+    margin-bottom: 240px;
+  } 
+  
+.registracija {
+    margin-top: 180px;
+    margin-bottom: 200px;
+  }  
+
+.navbar {
+    padding: 5px 20px 5px 20px !important;
+  }
+  
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Baloo Chettan 2', cursive;
+  }
+
+  p {
+    line-height: 160%;
+    font-size: 1.1rem;    
+}
+
+tbody {
+  font-size: 1.1rem;
+}
+
+.searchbar{
+  margin-bottom: 20px;
+  margin-top: auto;
+  height: 60px;
+  background-color: #353b48;
+  border-radius: 30px;
+  padding: 10px;
+  }
+
+.search_input{
+  color: white;
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 0;
+  caret-color:transparent;
+  line-height: 40px;
+  transition: width 0.4s linear;
+  }
+
+.searchbar:hover > .search_input{
+  padding: 0 10px;
+  width: 250px;
+  caret-color:red;
+  transition: width 0.4s linear;
+  }
+
+.searchbar:hover > .search_icon{
+  background: white;
+  color: #e74c3c;
+  }
+
+.search_icon{
+  height: 40px;
+  width: 40px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  text-decoration:none;
+  }
+
+  #footer {
+    background-color: darkslategray;
+    font-family: 'Baloo Chettan 2', cursive;
+  }
